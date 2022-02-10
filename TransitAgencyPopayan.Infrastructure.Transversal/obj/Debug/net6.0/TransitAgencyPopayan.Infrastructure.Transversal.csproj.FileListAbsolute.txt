@@ -1,0 +1,12 @@
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\bin\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.deps.json
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\bin\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\bin\Debug\net6.0\ref\TransitAgencyPopayan.Infrastructure.Transversal.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\bin\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.csproj.AssemblyReference.cache
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.AssemblyInfoInputs.cache
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.AssemblyInfo.cs
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\ref\TransitAgencyPopayan.Infrastructure.Transversal.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastructure.Transversal\obj\Debug\net6.0\TransitAgencyPopayan.Infrastructure.Transversal.pdb

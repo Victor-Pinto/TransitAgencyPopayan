@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NsdZ99mBPW9UfmVhSkDWuz7jmYJokglNutDMByNbkEo=",
+  "Source": "TransitAgencyPopayan.WebApi",
+  "BasePath": "_content/TransitAgencyPopayan.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

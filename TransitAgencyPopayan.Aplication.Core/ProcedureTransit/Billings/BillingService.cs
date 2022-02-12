@@ -16,7 +16,8 @@ namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Billings
         }
         //Todo: Victor, revisar las condicionales
         public async Task<BillingDto> Create(BillingDto request) =>
-            request ?? _mapper.Map<BillingDto>(await _repository.Insert(_mapper.Map<Billing>(request)).ConfigureAwait(false));
+            _mapper.Map<BillingDto>(await _repository.Insert(_mapper.Map<Billing>(request)).ConfigureAwait(false)) ??
+            throw new ArgumentException("Faltan datos en el objeto");
 
         public async Task<IEnumerable<BillingDto>> GetAll()
         {

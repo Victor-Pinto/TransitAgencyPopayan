@@ -15,8 +15,4 @@
     <ProjectReference Include="..\TransitAgencyPopayan.Aplication.Dto\TransitAgencyPopayan.Aplication.Dto.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

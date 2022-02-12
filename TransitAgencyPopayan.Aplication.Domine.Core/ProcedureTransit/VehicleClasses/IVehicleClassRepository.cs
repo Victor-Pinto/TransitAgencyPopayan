@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.VehicleClasses
 {
-    public interface IVehicleClassRepository : IRepositoryBase<ProcedureTransitBase>
+    public interface IVehicleClassRepository : IRepositoryBase<VehicleClass>
     {
     }
 }

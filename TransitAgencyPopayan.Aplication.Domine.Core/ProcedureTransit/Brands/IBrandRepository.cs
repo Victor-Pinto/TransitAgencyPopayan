@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Brands
 {
-    public interface IBrandRepository : IRepositoryBase<ProcedureTransitBase>
+    public interface IBrandRepository : IRepositoryBase<Brand>
     {
     }
 }

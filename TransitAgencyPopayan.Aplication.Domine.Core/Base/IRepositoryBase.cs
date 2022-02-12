@@ -2,14 +2,15 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.Base
 {
-    public interface IRepositoryBase<T> where T : EntityBase
+    public interface IRepositoryBase<T>
     {
         IUnitOfWork UnitOfWork { get; }
-        public Task<T> Insert<T>(T entity) where T : EntityBase;
-        public bool Update<T>(T entity) where T : EntityBase;
-        public bool Delete<T>(T entity) where T : EntityBase;
-        public IEnumerable<T> SearchMatching<T>(Expression<Func<T, bool>> predicate) where T : EntityBase;
-        public T SearchMatchingOneResult<T>(Expression<Func<T, bool>> predicate) where T : EntityBase;
-        public IEnumerable<T> GetAll<T>() where T : EntityBase;
+        Task<T> Insert(T entity);
+        Task<bool> Update(T entity);
+        Task<bool> Delete(int id);
+        Task<IEnumerable<T>> SearchMatching(Expression<Func<T, bool>> predicate);
+        Task<T> SearchMatchingOneResult(Expression<Func<T, bool>> predicate);
+        Task<IEnumerable<T>> GetAll();
+        Task<T> GetById(int id);
     }
 }

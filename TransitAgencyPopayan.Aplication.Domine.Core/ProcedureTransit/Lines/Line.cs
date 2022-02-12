@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Brands;
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Lines
 {
@@ -10,5 +11,7 @@ namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Lines
         public int LineId { get; set; }
 
         public int BrandId { get; set; }
+
+        public virtual Brand Brand { get; set; }
     }
 }

@@ -10,4 +10,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TransitAgencyPopayan.Aplication.Core\TransitAgencyPopayan.Aplication.Core.csproj" />
+    <ProjectReference Include="..\TransitAgencyPopayan.Aplication.Dto\TransitAgencyPopayan.Aplication.Dto.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

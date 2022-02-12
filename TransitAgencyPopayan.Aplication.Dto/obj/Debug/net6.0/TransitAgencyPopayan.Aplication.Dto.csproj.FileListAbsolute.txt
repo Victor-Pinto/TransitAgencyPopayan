@@ -2,7 +2,6 @@ C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopaya
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\bin\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Dto.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.pdb
-C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.csproj.AssemblyReference.cache
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.AssemblyInfoInputs.cache
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopaya
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Dto.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Dto\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.csproj.AssemblyReference.cache

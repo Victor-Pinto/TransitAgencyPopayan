@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Lines
 {
-    public interface ILineRepository : IRepositoryBase<ProcedureTransitBase>
+    public interface ILineRepository : IRepositoryBase<Line>
     {
     }
 }

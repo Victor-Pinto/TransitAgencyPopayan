@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{81
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Infrastructure", "5.Infrastructure", "{2E3C8F49-5B45-459B-9780-04BD683EEA82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.WebApi", "TransitAgencyPopayan.WebApi\TransitAgencyPopayan.WebApi.csproj", "{138927BA-0B88-4C43-B6F3-68720733212F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.WebApi", "TransitAgencyPopayan.WebApi\TransitAgencyPopayan.WebApi.csproj", "{138927BA-0B88-4C43-B6F3-68720733212F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.Aplication.Core", "TransitAgencyPopayan.Aplication.Core\TransitAgencyPopayan.Aplication.Core.csproj", "{DE11BD61-D304-41C4-A074-E0CCCC77565F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.Aplication.Core", "TransitAgencyPopayan.Aplication.Core\TransitAgencyPopayan.Aplication.Core.csproj", "{DE11BD61-D304-41C4-A074-E0CCCC77565F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.Aplication.Dto", "TransitAgencyPopayan.Aplication.Dto\TransitAgencyPopayan.Aplication.Dto.csproj", "{3B864A35-4B13-49F9-A51F-3200BC9192D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.Aplication.Dto", "TransitAgencyPopayan.Aplication.Dto\TransitAgencyPopayan.Aplication.Dto.csproj", "{3B864A35-4B13-49F9-A51F-3200BC9192D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.Aplication.Domine.Core", "TransitAgencyPopayan.Aplication.Domine.Core\TransitAgencyPopayan.Aplication.Domine.Core.csproj", "{54265F89-7511-405B-A294-7F56EA912A6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.Aplication.Domine.Core", "TransitAgencyPopayan.Aplication.Domine.Core\TransitAgencyPopayan.Aplication.Domine.Core.csproj", "{54265F89-7511-405B-A294-7F56EA912A6A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1Data", "5.1Data", "{4983CC71-E1C0-4A20-B353-2EF6DA648938}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2Transversal", "5.2Transversal", "{F9DABF90-0677-4A88-8BD2-F8978648B4B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core", "TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj", "{A8F921B7-6436-4427-9EC9-0230DF484EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core", "TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj", "{A8F921B7-6436-4427-9EC9-0230DF484EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitAgencyPopayan.Infrastructure.Transversal", "TransitAgencyPopayan.Infrastructure.Transversal\TransitAgencyPopayan.Infrastructure.Transversal.csproj", "{3854D15F-3E96-4DAF-B865-137DE64133E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransitAgencyPopayan.Infrastructure.Transversal", "TransitAgencyPopayan.Infrastructure.Transversal\TransitAgencyPopayan.Infrastructure.Transversal.csproj", "{3854D15F-3E96-4DAF-B865-137DE64133E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

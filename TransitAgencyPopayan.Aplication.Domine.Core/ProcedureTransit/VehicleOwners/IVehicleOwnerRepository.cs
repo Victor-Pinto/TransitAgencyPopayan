@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.VehicleOwners
 {
-    public interface IVehicleOwnerRepository : IRepositoryBase<EntityBase>
+    public interface IVehicleOwnerRepository : IRepositoryBase<VehicleOwner>
     {
     }
 }

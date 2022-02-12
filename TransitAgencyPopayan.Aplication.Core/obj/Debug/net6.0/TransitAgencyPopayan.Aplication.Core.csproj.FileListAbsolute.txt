@@ -10,3 +10,10 @@ C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopaya
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Core.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Dto.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Core.csproj.CopyComplete
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.pdb

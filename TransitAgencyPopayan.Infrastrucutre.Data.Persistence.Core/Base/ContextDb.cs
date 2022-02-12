@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using TransitAgencyPopayan.Aplication.Domine.Core.Base;
 using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Billings;
 using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Brands;
 using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Lines;
@@ -57,13 +56,13 @@ namespace TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.Base
             .ToList()
             .ForEach(e => e.State = EntityState.Detached);
 
-        public new DbSet<T> Set<T>() where T : EntityBase => base.Set<T>();
+        public new DbSet<T> Set<T>() where T : class => base.Set<T>();
 
-        public void SetDeatached<T>(T item) where T : EntityBase => Entry(item).State = EntityState.Detached;
+        public void SetDeatached<T>(T item) where T : class => Entry(item).State = EntityState.Detached;
 
-        public void SetModified<T>(T item) where T : EntityBase => Entry(item).State = EntityState.Modified;
+        public void SetModified<T>(T item) where T : class => Entry(item).State = EntityState.Modified;
 
-        public void Attach<T>(T item) where T : EntityBase
+        public void Attach<T>(T item) where T : class
         {
             if (Entry(item).State == EntityState.Detached)
                 base.Set<T>().Attach(item);

@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.TypeServices
 {
-    public interface ITypeServiceRepository : IRepositoryBase<ProcedureTransitBase>
+    public interface ITypeServiceRepository : IRepositoryBase<TypeService>
     {
     }
 }

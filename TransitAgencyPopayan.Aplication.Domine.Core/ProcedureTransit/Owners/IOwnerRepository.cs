@@ -2,7 +2,7 @@
 
 namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Owners
 {
-    public interface IOwnerRepository : IRepositoryBase<EntityBase>
+    public interface IOwnerRepository : IRepositoryBase<Owner>
     {
     }
 }

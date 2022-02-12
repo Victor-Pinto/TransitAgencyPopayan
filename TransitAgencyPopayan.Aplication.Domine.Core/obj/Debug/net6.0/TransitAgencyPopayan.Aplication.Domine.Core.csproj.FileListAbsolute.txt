@@ -2,7 +2,6 @@ C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopaya
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\bin\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\bin\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.pdb
-C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.csproj.AssemblyReference.cache
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.AssemblyInfoInputs.cache
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopaya
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.csproj.AssemblyReference.cache

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj",
+      "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj",
       "projectName": "TransitAgencyPopayan.Aplication.Dto",
-      "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj",
+      "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\obj\\",
+      "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",

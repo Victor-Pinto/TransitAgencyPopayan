@@ -1,4 +1,4 @@
-﻿using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit;
+﻿using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit.Billings;
 
 namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Billings
 {
@@ -8,10 +8,14 @@ namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Billings
 
         Task<BillingDto> GetById(int id);
 
+        Task<List<BillingDto>> SearchMatching(BillingSearchPropsDto request);
+
         Task<BillingDto> Create(BillingDto request);
 
         Task<bool> Update(BillingDto request);
 
         Task<bool> Delete(int id);
+
+
     }
 }

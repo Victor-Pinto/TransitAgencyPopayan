@@ -12,6 +12,6 @@ namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Lines
 
         public int BrandId { get; set; }
 
-        public virtual Brand Brand { get; set; }
+        public virtual Brand? Brand { get; set; }
     }
 }

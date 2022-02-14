@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bN9GLUv85G+LPgSC1gfq6PafgHa2x8rWq8UaRQSjH0YGjuw/vycpmhrdkFnc6cPRgzIpk3tBx/0xvh4FDrswog==",
+  "dgSpecHash": "jvxq0rOA0W0aU2N3ktib+rJ4R2WDsZKTrashr8ahjCwIAmaVDaO+cJHgmxVbJUeJ+prIzrVVORPnTIkAm9KsAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
+  "projectFilePath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",

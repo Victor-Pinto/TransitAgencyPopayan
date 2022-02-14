@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rwTLpX8hwWyQPVBuaYCjIb3/nnfG4O7QczcSM06H31xdXCiixT35jnote2cpGkpuXPStrxuBorR71dmNQHPqCQ==",
+  "dgSpecHash": "n7fDjDtsB8/48sy5g91vUqdvEts38MMr+q/Xg1hkaqmZBzCtLx3YAWliSfvH7TDIq+GNTIGSgxnwvbN1t5xbFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
+  "projectFilePath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -35,6 +35,7 @@
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.8.0\\microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\microsoft.visualstudio.sdk.vsixsuppression\\14.1.37\\microsoft.visualstudio.sdk.vsixsuppression.14.1.37.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

@@ -4,6 +4,12 @@
     {
         public string ConnectionString { get; set; }
 
-        public void CopyFrom(DbSettings options) => ConnectionString = options.ConnectionString;
+        public void CopyFrom(DbSettings options)
+        {
+            if (options == default || options == null)
+                throw new ArgumentNullException(nameof(options));
+
+            ConnectionString = options.ConnectionString ?? throw new ArgumentNullException();
+        }
     }
 }

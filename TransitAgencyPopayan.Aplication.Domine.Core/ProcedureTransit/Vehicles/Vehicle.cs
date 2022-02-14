@@ -18,20 +18,20 @@ namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Vehicles
 
         public int LineId { get; set; }
 
-        public virtual Line Line { get; set; }
+        public virtual Line? Line { get; set; }
 
         public string Model { get; set; }
 
-        public int MotorNumber { get; set; }
+        public string MotorNumber { get; set; }
 
         public string Color { get; set; }
 
         public int VehiculeClassId { get; set; }
 
-        public virtual VehicleClass VehiculeClass { get; set; }
+        public virtual VehicleClass? VehiculeClass { get; set; }
 
         public int TypeServiceId { get; set; }
 
-        public virtual TypeService TypeService { get; set; }
+        public virtual TypeService? TypeService { get; set; }
     }
 }

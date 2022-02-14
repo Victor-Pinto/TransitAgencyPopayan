@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj": {}
+    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj": {
+    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj",
         "projectName": "TransitAgencyPopayan.Infrastructure.Transversal",
-        "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj",
+        "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\TransitAgencyPopayan.Infrastructure.Transversal.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastructure.Transversal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",

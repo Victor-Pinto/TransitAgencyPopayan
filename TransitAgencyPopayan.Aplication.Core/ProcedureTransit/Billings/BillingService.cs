@@ -1,62 +1,141 @@
 ﻿using AutoMapper;
+using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.VehicleOwners;
 using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Billings;
-using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit;
+using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit.Billings;
 
 namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Billings
 {
     public class BillingService : IBillingService
     {
-        private readonly IBillingRepository _repository;
+        private readonly IBillingRepository _billingRepository;
+        private readonly IVehicleOwnerService _vehicleOwnerService;
         private readonly IMapper _mapper;
 
-        public BillingService(IBillingRepository repository, IMapper mapper)
+        public BillingService(
+            IBillingRepository repository,
+            IVehicleOwnerService vehicleOwnerService,
+            IMapper mapper)
         {
-            _repository = repository;
+            _billingRepository = repository;
+            _vehicleOwnerService = vehicleOwnerService;
             _mapper = mapper;
         }
-        //Todo: Victor, revisar las condicionales
-        public async Task<BillingDto> Create(BillingDto request) =>
-            _mapper.Map<BillingDto>(await _repository.Insert(_mapper.Map<Billing>(request)).ConfigureAwait(false)) ??
-            throw new ArgumentException("Faltan datos en el objeto");
 
-        public async Task<IEnumerable<BillingDto>> GetAll()
+        public async Task<BillingDto> Create(BillingDto request) =>
+            _mapper.Map<BillingDto>(await _billingRepository.Insert(_mapper.Map<Billing>(request))
+                .ConfigureAwait(false));
+
+        public async Task<IEnumerable<BillingDto>> GetAll() =>
+            _mapper.Map<IEnumerable<BillingDto>>(await _billingRepository.GetAll()
+                .ConfigureAwait(false));
+
+        public async Task<BillingDto> GetById(int id) =>
+            _mapper.Map<BillingDto>(await _billingRepository.GetById(id).ConfigureAwait(false));
+
+        public async Task<List<BillingDto>> SearchMatching(BillingSearchPropsDto request)
         {
-            var objectList = _mapper.Map<IEnumerable<BillingDto>>(await _repository.GetAll().ConfigureAwait(false));
-            if (objectList == null)
+            var idOwner = string.Empty;
+            var billings = new List<BillingDto>();
+            var vehicleOwner = await _vehicleOwnerService.GetAll().ConfigureAwait(false);
+
+            if (request.InitialDate != null && request.FinalDate != null && string.IsNullOrEmpty(request.LicensePlate) &&
+                string.IsNullOrEmpty(request.OwnerIdentification))
             {
-                throw new ArgumentException("Aún no hay contenido en la base de datos");
+                billings = await ValidationDateRange(request);
+
+                return (from bill in billings
+                        where request.InitialDate <= bill.Date && bill.Date <= request.FinalDate
+                        select bill).ToList();
             }
-            return objectList;
+
+            if (request.InitialDate != null && request.FinalDate != null && !string.IsNullOrEmpty(request.LicensePlate) &&
+                string.IsNullOrEmpty(request.OwnerIdentification))
+
+            {
+                billings = await ValidationDateRange(request);
+                return (from bill in billings
+                        where request.InitialDate <= bill.Date && bill.Date <= request.FinalDate &&
+                           request.LicensePlate == bill.Vehicle.LicensePlate
+                        select bill).ToList();
+            }
+
+            if (request.InitialDate != null && request.FinalDate != null && string.IsNullOrEmpty(request.LicensePlate) &&
+                !string.IsNullOrEmpty(request.OwnerIdentification))
+            {
+
+                if (vehicleOwner == null)
+                    throw new ArgumentException("La lista de propietarios de vehículos está vacía");
+
+                idOwner = vehicleOwner.FirstOrDefault(x =>
+                    x.Owner.Identification == request.OwnerIdentification).Owner.Identification ?? string.Empty;
+
+                billings = await ValidationDateRange(request);
+                return (from bill in billings
+                        where request.InitialDate <= bill.Date && bill.Date <= request.FinalDate &&
+                             request.OwnerIdentification == idOwner
+                        select bill).ToList();
+            }
+
+            if (request.InitialDate == null && request.FinalDate == null && !string.IsNullOrEmpty(request.LicensePlate) &&
+                string.IsNullOrEmpty(request.OwnerIdentification))
+            {
+
+                billings = (await GetAll().ConfigureAwait(false)).ToList();
+                return (from bill in billings
+                        where request.LicensePlate == bill.Vehicle.LicensePlate
+                        select bill).ToList();
+
+            }
+
+            if (request.InitialDate == null && request.FinalDate == null && string.IsNullOrEmpty(request.LicensePlate) &&
+                !string.IsNullOrEmpty(request.OwnerIdentification))
+            {
+                if (vehicleOwner == null)
+                    throw new ArgumentException("La lista de propietarios de vehículos está vacía");
+
+                idOwner = vehicleOwner.FirstOrDefault(x =>
+                    x.Owner.Identification == request.OwnerIdentification).Owner.Identification ?? string.Empty;
+
+                billings = await ValidationDateRange(request);
+                return (from bill in billings
+                        where request.OwnerIdentification == idOwner
+                        select bill).ToList();
+            }
+
+
+            if (vehicleOwner == null)
+                throw new ArgumentException("La lista de propietarios de vehículos está vacía");
+
+            idOwner = vehicleOwner.FirstOrDefault(x =>
+                x.Owner.Identification == request.OwnerIdentification).Owner.Identification ?? string.Empty;
+
+            var billingsList = await ValidationDateRange(request);
+            return (from bill in billingsList
+                    where request.InitialDate <= bill.Date && bill.Date <= request.FinalDate &&
+                         request.OwnerIdentification == idOwner
+                    select bill).ToList();
         }
 
-
-        public async Task<BillingDto> GetById(int id)
+        private async Task<List<BillingDto>> ValidationDateRange(BillingSearchPropsDto request)
         {
-            if (id == 0)
-                throw new ArgumentException("El id no puede ser 0");
+            if (request.InitialDate > DateTimeOffset.Now)
+                throw new Exception("La fecha no puede ser mayor a la actual");
 
-            var object2get = _mapper.Map<BillingDto>(await _repository.GetById(id).ConfigureAwait(false)) ?? new BillingDto();
+            if (request.FinalDate < request.InitialDate)
+                throw new Exception("La fecha final no puede ser menor que la inicial");
 
-            if (object2get == null)
-                throw new ArgumentException("El objeto consultado no existe");
+            if (request.FinalDate > DateTimeOffset.Now)
+                throw new Exception("La fecha final no puede ser mayor que la actual");
 
-            return object2get;
+            return (await GetAll().ConfigureAwait(false)).ToList();
         }
 
         public async Task<bool> Update(BillingDto request) =>
-            await _repository.Update(_mapper.Map<Billing>(request)).ConfigureAwait(false);
+            await _billingRepository.Update(_mapper.Map<Billing>(request)).ConfigureAwait(false);
 
-        public async Task<bool> Delete(int id)
-        {
-            if (id == 0)
-                throw new ArgumentException("El id no puede ser 0");
-
-            var validateExistId = await _repository.GetById(id).ConfigureAwait(false);
-
-            if (validateExistId == null)
-                throw new ArgumentException("No existe el Id");
-
-            return await _repository.Delete(id).ConfigureAwait(false);
-        }
+        public async Task<bool> Delete(int id) =>
+            await _billingRepository.Delete(id).ConfigureAwait(false) ? true : throw new ArgumentException("No existe el Id");
     }
+
+
 }

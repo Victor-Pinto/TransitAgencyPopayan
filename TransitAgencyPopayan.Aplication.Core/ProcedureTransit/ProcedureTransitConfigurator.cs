@@ -7,16 +7,16 @@ using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Owners;
 using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.ProcedureBillings;
 using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Procedures;
 using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.TypeServices;
+using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.VehicleClasses;
+using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.VehicleOwners;
 using TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Vehicles;
-using TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.Base.Configuration;
 
 namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit
 {
     public static class ProcedureTransitConfigurator
     {
-        public static void ConfigureProcedureTransitServices(this IServiceCollection services, DbSettings settings)
+        public static void ConfigureProcedureTransitServices(this IServiceCollection services)
         {
-            services.ConfigureVehicleService();
             services.ConfigureBillingService();
             services.ConfigureBrandService();
             services.ConfigureLineService();
@@ -24,13 +24,11 @@ namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit
             services.ConfigureProcedureBillingService();
             services.ConfigureProcedureService();
             services.ConfigureTypeServiceService();
+            services.ConfigureVehicleClassService();
+            services.ConfigureVehicleOwnerService();
+            services.ConfigureVehicleService();
 
             services.ConfigureMapper();
-
-            //Todo:Victor, completar cada llamado de los configuradores de los servicios
-            //Configurator of billing
-            // Configurator of line
-            // Configurator of proceduce
         }
     }
 }

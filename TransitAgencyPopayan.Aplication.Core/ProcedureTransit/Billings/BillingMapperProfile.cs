@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Billings;
-using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit;
+using TransitAgencyPopayan.Aplication.Dto.ProcedureTransit.Billings;
 
 namespace TransitAgencyPopayan.Aplication.Core.ProcedureTransit.Billings
 {

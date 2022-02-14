@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {}
+    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
+    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
         "projectName": "TransitAgencyPopayan.Aplication.Domine.Core",
-        "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
+        "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
+    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj",
         "projectName": "TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core",
-        "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj",
+        "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
-                "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj"
+              "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
+                "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj"
               }
             }
           }
@@ -124,6 +124,10 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -139,6 +143,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.SDK.VsixSuppression": {
+              "target": "Package",
+              "version": "[14.1.37, )"
             }
           },
           "imports": [

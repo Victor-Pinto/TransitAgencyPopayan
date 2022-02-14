@@ -8,28 +8,28 @@ namespace TransitAgencyPopayan.WebApi.Controllers.ProcedureTransit
     [ApiController]
     public class VehicleController : ControllerBase
     {
-        private readonly IVehicleService _vehicleService;
+        private readonly IVehicleService _service;
 
-        public VehicleController(IVehicleService vehicleService) => _vehicleService = vehicleService;
+        public VehicleController(IVehicleService vehicleService) => _service = vehicleService;
 
         [HttpPost(nameof(Create))]
         public async Task<VehicleDto> Create(VehicleDto request) =>
-            await _vehicleService.Create(request).ConfigureAwait(false);
+            await _service.Create(request).ConfigureAwait(false);
 
         [HttpGet(nameof(GetAll))]
         public async Task<IEnumerable<VehicleDto>> GetAll() =>
-            await _vehicleService.GetAll().ConfigureAwait(true);
+            await _service.GetAll().ConfigureAwait(true);
 
         [HttpGet("GetById/{id}")]
         public async Task<VehicleDto> GetById(int id) =>
-            await _vehicleService.GetById(id).ConfigureAwait(false);
+            await _service.GetById(id).ConfigureAwait(false);
 
         [HttpPut(nameof(Update))]
         public async Task<bool> Update(VehicleDto request) =>
-            await _vehicleService.Update(request).ConfigureAwait(false);
+            await _service.Update(request).ConfigureAwait(false);
 
-        [HttpPut("Delete/{id}")]
+        [HttpDelete("Delete/{id}")]
         public async Task<bool> Delete(int id) =>
-            await _vehicleService.Delete(id).ConfigureAwait(false);
+            await _service.Delete(id).ConfigureAwait(false);
     }
 }

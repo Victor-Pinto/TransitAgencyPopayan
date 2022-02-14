@@ -19,7 +19,7 @@ namespace TransitAgencyPopayan.Aplication.Domine.Core.ProcedureTransit.Billings
         [Required]
         public int VehicleId { get; set; }
 
-        public virtual Vehicle Vehicle { get; set; }
+        public virtual Vehicle? Vehicle { get; set; }
 
         public string? Observation { get; set; }
 

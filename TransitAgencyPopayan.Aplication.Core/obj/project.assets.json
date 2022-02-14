@@ -429,6 +429,12 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.VisualStudio.SDK.VsixSuppression/14.1.37": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -762,10 +768,12 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2",
+          "Microsoft.Extensions.Configuration": "6.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "6.0.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
+          "Microsoft.VisualStudio.SDK.VsixSuppression": "14.1.37",
           "TransitAgencyPopayan.Aplication.Domine.Core": "1.0.0"
         },
         "compile": {
@@ -1523,6 +1531,18 @@
         "version.txt"
       ]
     },
+    "Microsoft.VisualStudio.SDK.VsixSuppression/14.1.37": {
+      "sha512": "2S2Rg5N9HGYgMJL0NZtV1RstrvnNEPxWrBu19zQIeeZeAc/o/CXTAzosHW/TjrWvnEQJkgc9LJ7gtXi9S81wpQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.sdk.vsixsuppression/14.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.VisualStudio.SDK.VsixSuppression.targets",
+        "microsoft.visualstudio.sdk.vsixsuppression.14.1.37.nupkg.sha512",
+        "microsoft.visualstudio.sdk.vsixsuppression.nuspec"
+      ]
+    },
     "Microsoft.Win32.Registry/4.7.0": {
       "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "type": "package",
@@ -2194,11 +2214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
       "projectName": "TransitAgencyPopayan.Aplication.Core",
-      "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
+      "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\obj\\",
+      "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2215,11 +2235,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj": {
-              "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj"
+            "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj": {
+              "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj"
             },
-            "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
-              "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj"
+            "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
+              "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj"
             }
           }
         }

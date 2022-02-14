@@ -6,6 +6,6 @@
 
         public int BrandId { get; set; }
 
-        public BrandDto Brand { get; set; }
+        public BrandDto? Brand { get; set; }
     }
 }

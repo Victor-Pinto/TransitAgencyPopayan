@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {}
+    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
+    "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
         "projectName": "TransitAgencyPopayan.Aplication.Domine.Core",
-        "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
+        "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\TransitAgencyPopayan.Aplication.Domine.Core.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Domine.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2214,11 +2214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
       "projectName": "TransitAgencyPopayan.Aplication.Core",
-      "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
+      "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\TransitAgencyPopayan.Aplication.Core.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\obj\\",
+      "outputPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2235,11 +2235,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj": {
-              "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj"
+            "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj": {
+              "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Aplication.Dto\\TransitAgencyPopayan.Aplication.Dto.csproj"
             },
-            "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
-              "projectPath": "C:\\Users\\Victor\\Downloads\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj"
+            "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj": {
+              "projectPath": "C:\\Users\\Victor\\Documents\\1Projects\\S&P\\TransitAgencyPopayan\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj"
             }
           }
         }

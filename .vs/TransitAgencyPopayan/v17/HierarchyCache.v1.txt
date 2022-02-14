@@ -1,4 +1,5 @@
 ﻿++Solution 'TransitAgencyPopayan' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:TransitAgencyPopayan.sln
 ++1.Presentation
 i:{00000000-0000-0000-0000-000000000000}:1.Presentation
 ++2.Distributed Service
@@ -6,43 +7,18 @@ i:{00000000-0000-0000-0000-000000000000}:2.Distributed Service
 ++TransitAgencyPopayan.WebApi
 i:{490614ba-1953-48d1-9304-c88ffadbd65b}:TransitAgencyPopayan.WebApi
 ++Connected Services 
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>934
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>948
 ++Dependencies
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>933
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>802
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:>799
-i:{54265f89-7511-405b-a294-7f56ea912a6a}:>801
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>803
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>947
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:>813
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>816
+i:{54265f89-7511-405b-a294-7f56ea912a6a}:>817
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>815
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>814
 ++Properties
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\properties\
 ++Controllers
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\
-++ProcedureTransit
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\
-i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\
-++BillingController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\billingcontroller.cs
-++BrandController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\brandcontroller.cs
-++LineController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\linecontroller.cs
-++OwnerController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\ownercontroller.cs
-++ProcedureBillingController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\procedurebillingcontroller.cs
-++ProcedureController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\procedurecontroller.cs
-++TypeServiceController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\typeservicecontroller.cs
-++VehicleClasses.cs
-++VehicleController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehiclecontroller.cs
-++VehicleOwnerController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehicleownercontroller.cs
 ++appsettings.json
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\appsettings.json
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\appsettings.json
@@ -51,30 +27,39 @@ i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagency
 ++Startup.cs
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\startup.cs
 ++No service dependencies discovered
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>935
 ++Analyzers
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:analyzers
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:analyzers
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:analyzers
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:analyzers
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:analyzers
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:analyzers
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:analyzers
 ++Frameworks
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:frameworks
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:frameworks
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:frameworks
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:frameworks
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:frameworks
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:frameworks
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:frameworks
 ++Packages
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:packages
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:packages
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:packages
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:packages
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:packages
 ++Projects
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:projects
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:projects
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:projects
 ++launchSettings.json
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\properties\launchsettings.json
+++ProcedureTransit
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\
+i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\
 ++appsettings.Development.json
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\appsettings.development.json
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\appsettings.development.json
@@ -92,16 +77,18 @@ i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\sdk\6.0.101\sdk
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
@@ -112,62 +99,107 @@ i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\packs\microsoft
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\microsoft.netcore.app
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\microsoft.netcore.app
 i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\microsoft.netcore.app
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\microsoft.netcore.app
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\microsoft.netcore.app
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\microsoft.netcore.app
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore.Design (6.0.2)
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1017
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>990
-++Microsoft.EntityFrameworkCore.Tools (6.0.2)
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1021
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>996
-++Microsoft.Extensions.DependencyInjection (6.0.0)
 i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1020
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>958
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1024
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>964
+++Microsoft.Extensions.DependencyInjection (6.0.0)
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1023
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>994
 ++Swashbuckle.AspNetCore (6.2.3)
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1018
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1021
 ++Swashbuckle.AspNetCore.Swagger (6.2.3)
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1019
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1022
 ++TransitAgencyPopayan.Aplication.Core
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\bin\debug\net6.0\transitagencypopayan.aplication.core.dll
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\transitagencypopayan.aplication.core.csproj
 i:{2c718267-7e92-4ab7-a822-9132c4c980f5}:TransitAgencyPopayan.Aplication.Core
 ++TransitAgencyPopayan.Aplication.Dto
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\bin\debug\net6.0\transitagencypopayan.aplication.dto.dll
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\bin\debug\net6.0\transitagencypopayan.aplication.dto.dll
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\transitagencypopayan.aplication.dto.csproj
 i:{2c718267-7e92-4ab7-a822-9132c4c980f5}:TransitAgencyPopayan.Aplication.Dto
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\bin\debug\net6.0\transitagencypopayan.aplication.dto.dll
+++BillingController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\billingcontroller.cs
+++BrandController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\brandcontroller.cs
+++LineController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\linecontroller.cs
+++OwnerController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\ownercontroller.cs
+++ProcedureBillingController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\procedurebillingcontroller.cs
+++ProcedureController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\procedurecontroller.cs
+++TypeServiceController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\typeservicecontroller.cs
+++VehicleClassController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehicleclasscontroller.cs
+++VehicleController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehiclecontroller.cs
+++VehicleOwnerController.cs
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehicleownercontroller.cs
 ++3.Aplicaction
 i:{00000000-0000-0000-0000-000000000000}:3.Aplicaction
+++Base
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\base\
+i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\base\
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\base\
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\
+++Billings
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\
+i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\billings\
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\billings\
+++BrandDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\branddto.cs
+++LineDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\linedto.cs
+++OwnerDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\ownerdto.cs
+++ProcedureBillingDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\procedurebillingdto.cs
+++ProcedureDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\proceduredto.cs
+++ProcedureTransitBaseDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\proceduretransitbasedto.cs
+++TypeServiceDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\typeservicedto.cs
+++VehicleClassDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicleclassdto.cs
+++VehicleDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicledto.cs
+++VehicleOwnerDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicleownerdto.cs
+++DataTransferObjectBase.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\base\datatransferobjectbase.cs
+++BillingDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\billingdto.cs
+++BillingSearchPropsDto.cs
+i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\billingsearchpropsdto.cs
 ++Mapper
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\mapper\
 ++Configuration
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\mapper\configuration\
-++DtpMapperConfigurator.cs
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\mapper\configuration\dtpmapperconfigurator.cs
-++Billings
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\
-i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\billings\
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\billings\
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\
-++BillingMapperProfile.cs
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingmapperprofile.cs
-++BillingService.cs
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingservice.cs
-++BillingServiceConfiguration.cs
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingserviceconfiguration.cs
-++IBillingService.cs
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\ibillingservice.cs
 ++Brands
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\brands\
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\brands\
@@ -206,6 +238,25 @@ i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagency
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\vehicles\
 ++ProcedureTransitConfigurator.cs
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\proceduretransitconfigurator.cs
+++AutoMapper (11.0.1)
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>1006
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>1005
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>959
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>992
+++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\bin\debug\net6.0\transitagencypopayan.infrastrucutre.data.persistence.core.dll
+i:{4983cc71-e1c0-4a20-b353-2ef6da648938}:TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core
+++DtpMapperConfigurator.cs
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\mapper\configuration\dtpmapperconfigurator.cs
+++BillingMapperProfile.cs
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingmapperprofile.cs
+++BillingService.cs
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingservice.cs
+++BillingServiceConfiguration.cs
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\billingserviceconfiguration.cs
+++IBillingService.cs
+i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\billings\ibillingservice.cs
 ++BrandMapperProfile.cs
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\brands\brandmapperprofile.cs
 ++BrandService.cs
@@ -278,48 +329,11 @@ i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagency
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\vehicles\vehicleservice.cs
 ++VehicleServiceConfiguration.cs
 i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.core\proceduretransit\vehicles\vehicleserviceconfiguration.cs
-++AutoMapper (11.0.1)
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>977
-++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:>975
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>991
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core
-i:{de11bd61-d304-41c4-a074-e0cccc77565f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\bin\debug\net6.0\transitagencypopayan.infrastrucutre.data.persistence.core.dll
-i:{4983cc71-e1c0-4a20-b353-2ef6da648938}:TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core
-++Base
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\base\
-i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\base\
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\base\
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\
-++DataTransferObjectBase.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\base\datatransferobjectbase.cs
-++BillingDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\billingdto.cs
-++BrandDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\branddto.cs
-++LineDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\linedto.cs
-++OwnerDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\ownerdto.cs
-++ProcedureBillingDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\procedurebillingdto.cs
-++ProcedureDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\proceduredto.cs
-++ProcedureTransitBaseDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\proceduretransitbasedto.cs
-++TypeServiceDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\typeservicedto.cs
-++VehicleClassDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicleclassdto.cs
-++VehicleDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicledto.cs
-++VehicleOwnerDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\vehicleownerdto.cs
 ++4.Domain
 i:{00000000-0000-0000-0000-000000000000}:4.Domain
 ++TransitAgencyPopayan.Aplication.Domine.Core
 i:{81f8bc79-74bb-40c5-adec-4cf33ace0a9b}:TransitAgencyPopayan.Aplication.Domine.Core
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\bin\debug\net6.0\transitagencypopayan.aplication.domine.core.dll
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\transitagencypopayan.aplication.domine.core.csproj
 ++EntityBase.cs
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\base\entitybase.cs
 ++IRepositoryBase.cs
@@ -328,6 +342,9 @@ i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagency
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\base\iunitofwork.cs
 ++ProcedureTransitBase.cs
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\proceduretransitbase.cs
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{54265f89-7511-405b-a294-7f56ea912a6a}:>990
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>956
 ++Billing.cs
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\billings\billing.cs
 ++IBillingRepository.cs
@@ -368,9 +385,6 @@ i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagency
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\vehicles\ivehiclerepository.cs
 ++Vehicle.cs
 i:{54265f89-7511-405b-a294-7f56ea912a6a}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.domine.core\proceduretransit\vehicles\vehicle.cs
-++Microsoft.EntityFrameworkCore (6.0.2)
-i:{54265f89-7511-405b-a294-7f56ea912a6a}:>973
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>988
 ++5.Infrastructure
 i:{00000000-0000-0000-0000-000000000000}:5.Infrastructure
 ++5.1Data
@@ -383,8 +397,45 @@ i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagency
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\base\repositorybase.cs
 ++20220212192901_First migration.cs
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220212192901_first migration.cs
+++20220213024355_brand update.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213024355_brand update.cs
+++20220213031048_Added nulleable property to all foreign keys.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213031048_added nulleable property to all foreign keys.cs
 ++ProcedureContextDbModelSnapshot.cs
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\procedurecontextdbmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>957
+++Microsoft.Extensions.Configuration (6.0.0)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>963
+++Microsoft.Extensions.Configuration.FileExtensions (6.0.0)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>961
+++Microsoft.Extensions.Configuration.Json (6.0.0)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>962
+++Microsoft.Extensions.Options (6.0.0)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>965
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>995
+++Microsoft.VisualStudio.SDK.VsixSuppression (14.1.37)
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>960
+++DbSettings.cs
+++RepositoryConfigurator.cs
+++DbContextBase.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\dbcontextbase.cs
+++DbContextConfiguration.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\dbcontextconfiguration.cs
+++IDbContextBase.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\idbcontextbase.cs
+++IProcedureContextDb.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\iprocedurecontextdb.cs
+++ProcedureContextConfiguration.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\procedurecontextconfiguration.cs
+++ProcedureContextDb.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\procedurecontextdb.cs
+++20220212192901_First migration.Designer.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220212192901_first migration.designer.cs
+++20220213024355_brand update.Designer.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213024355_brand update.designer.cs
+++20220213031048_Added nulleable property to all foreign keys.Designer.cs
+i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213031048_added nulleable property to all foreign keys.designer.cs
 ++BillingRepository.cs
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\billings\billingrepository.cs
 ++BillingRepositoryConfigurator.cs
@@ -425,181 +476,25 @@ i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagency
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\vehicles\vehiclerepository.cs
 ++VehicleRepositoryConfigurator.cs
 i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\proceduretransit\vehicles\vehiclerepositoryconfigurator.cs
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>989
-++Microsoft.Extensions.Configuration (6.0.0)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>995
-++Microsoft.Extensions.Configuration.FileExtensions (6.0.0)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>993
-++Microsoft.Extensions.Configuration.Json (6.0.0)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>994
-++Microsoft.Extensions.Options (6.0.0)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>997
-++Microsoft.VisualStudio.SDK.VsixSuppression (14.1.37)
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:>992
-++DbSettings.cs
-++RepositoryConfigurator.cs
-++DbContextBase.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\dbcontextbase.cs
-++DbContextConfiguration.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\dbcontextconfiguration.cs
-++IDbContextBase.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\base\idbcontextbase.cs
-++IProcedureContextDb.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\iprocedurecontextdb.cs
-++ProcedureContextConfiguration.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\procedurecontextconfiguration.cs
-++ProcedureContextDb.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\context\proceduretransit\procedurecontextdb.cs
-++20220212192901_First migration.Designer.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220212192901_first migration.designer.cs
 ++5.2Transversal
+i:{2e3c8f49-5b45-459b-9780-04bd683eea82}:5.2Transversal
 ++TransitAgencyPopayan.Infrastructure.Transversal
+i:{f9dabf90-0677-4a88-8bd2-f8978648b4b5}:TransitAgencyPopayan.Infrastructure.Transversal
 ++Http
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\http\
 ++Client
-++Configurator
-++HttpClientConfigurator.cs
-++HttpClientSettings.cs
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\http\client\
 ++Microsoft.Extensions.Http (6.0.0)
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>993
 ++Newtonsoft.Json (13.0.1)
-++NewFolder
-++BillingDto - Copy.cs
-++BillingSearchPropsDto.cs
-i:{3b864a35-4b13-49f9-a51f-3200bc9192d8}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.aplication.dto\proceduretransit\billings\billingsearchpropsdto.cs
-++VehicleClasseController.cs
-++VehicleClassController.cs
-i:{138927ba-0b88-4c43-b6f3-68720733212f}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.webapi\controllers\proceduretransit\vehicleclasscontroller.cs
-++20220213024355_brand update.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213024355_brand update.cs
-++20220213024355_brand update.Designer.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213024355_brand update.designer.cs
-++20220213031048_Added nulleable property to all foreign keys.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213031048_added nulleable property to all foreign keys.cs
-++20220213031048_Added nulleable property to all foreign keys.Designer.cs
-i:{a8f921b7-6436-4427-9ec9-0230df484eb7}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastrucutre.data.persistence.core\migrations\20220213031048_added nulleable property to all foreign keys.designer.cs
-++bin
-++Debug
-++net6.0
-++ref
-++TransitAgencyPopayan.Aplication.Domine.Core.dll
-++TransitAgencyPopayan.Aplication.Domine.Core.pdb
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.deps.json
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.dll
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.pdb
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.runtimeconfig.json
-++obj
-++project.assets.json
-++project.nuget.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.nuget.dgspec.json
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.nuget.g.props
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.nuget.g.targets
-++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.AssemblyInfo.cs
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.AssemblyInfoInputs.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.assets.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.AssemblyReference.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.CopyComplete
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.CoreCompileInputs.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.csproj.FileListAbsolute.txt
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.GeneratedMSBuildEditorConfig.editorconfig
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.genruntimeconfig.cache
-++TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.GlobalUsings.g.cs
-++Imports
-++Sdk.props
-++Sdk.targets
-++Microsoft.Common.props
-++Microsoft.NET.Sdk.props
-++Microsoft.NET.Sdk.BeforeCommon.targets
-++Microsoft.CSharp.targets
-++Microsoft.NET.Sdk.targets
-++Microsoft.NET.Compatibility.targets
-++NuGet.Build.Tasks.Pack.targets
-++Microsoft.NuGet.ImportBefore.props
-++NuGet.props
-++Microsoft.NET.Sdk.DefaultItems.props
-++Microsoft.NET.Sdk.ImportWorkloads.props
-++Microsoft.NET.SupportedTargetFrameworks.props
-++Microsoft.NET.SupportedPlatforms.props
-++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
-++Microsoft.NET.Sdk.CSharp.props
-++Microsoft.NET.ILLink.props
-++Microsoft.NET.Compatibility.props
-++Microsoft.NET.PackTool.props
-++Microsoft.NET.PackProjectTool.props
-++Microsoft.NET.Sdk.WindowsDesktop.props
-++Microsoft.NET.Windows.props
-++Microsoft.NET.DefaultAssemblyInfo.targets
-++Microsoft.NET.DefaultOutputPaths.targets
-++Microsoft.NET.Sdk.ImportPublishProfile.targets
-++Microsoft.NET.TargetFrameworkInference.targets
-++Microsoft.NET.Sdk.ImportWorkloads.targets
-++Microsoft.NET.RuntimeIdentifierInference.targets
-++Microsoft.NET.EolTargetFrameworks.targets
-++Microsoft.NET.NuGetOfflineCache.targets
-++Microsoft.Managed.Before.targets
-++Microsoft.CSharp.CurrentVersion.targets
-++Microsoft.Managed.After.targets
-++Microsoft.NET.Sdk.Common.targets
-++Microsoft.PackageDependencyResolution.targets
-++Microsoft.NET.Sdk.DefaultItems.targets
-++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
-++Microsoft.NET.Sdk.Shared.targets
-++Microsoft.NET.DisableStandardFrameworkResolution.targets
-++Microsoft.NET.DesignerSupport.targets
-++Microsoft.NET.GenerateAssemblyInfo.targets
-++Microsoft.NET.GenerateGlobalUsings.targets
-++Microsoft.NET.GenerateSupportedRuntime.targets
-++Microsoft.NET.ComposeStore.targets
-++Microsoft.NET.CrossGen.targets
-++Microsoft.NET.ObsoleteReferences.targets
-++Microsoft.NET.Publish.targets
-++Microsoft.NET.PackTool.targets
-++Microsoft.NET.PackProjectTool.targets
-++Microsoft.NET.PreserveCompilationContext.targets
-++Microsoft.NET.ConflictResolution.targets
-++Microsoft.NET.Sdk.CSharp.targets
-++Microsoft.NET.ILLink.targets
-++Microsoft.NET.Sdk.Analyzers.targets
-++Microsoft.NET.Compatibility.Common.targets
-++Microsoft.EntityFrameworkCore.Design.props
-++Microsoft.NuGet.props
-++Microsoft.NETCoreSdk.BundledVersions.props
-++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
-++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
-++Microsoft.CSharp.Core.targets
-++Microsoft.CSharp.DesignTime.targets
-++Microsoft.Common.targets
-++Microsoft.ServiceModel.targets
-++Microsoft.NET.Sdk.DefaultItems.Shared.targets
-++Microsoft.NETCoreSdk.BundledCliTools.props
-++Microsoft.NET.DefaultPackageConflictOverrides.targets
-++Microsoft.CodeAnalysis.NetAnalyzers.props
-++Microsoft.CodeAnalysis.NetAnalyzers.targets
-++Microsoft.NET.ILLink.Tasks.props
-++System.Windows.Forms.Analyzers.props
-++Microsoft.Managed.Core.targets
-++Microsoft.Managed.DesignTime.targets
-++Microsoft.Common.CurrentVersion.targets
-++Microsoft.Managed.Core.CurrentVersions.targets
-++Microsoft.NET.props
-++Microsoft.CodeAnalysis.targets
-++Microsoft.Xaml.targets
-++Microsoft.WorkflowBuildExtensions.targets
-++Microsoft.TeamTest.targets
-++NuGet.targets
-++Microsoft.Docker.ImportAfter.targets
-++Microsoft.NET.Build.Extensions.targets
-++Microsoft.NuGet.ImportAfter.targets
-++Microsoft.Web.ImportAfter.targets
-++Microsoft.VisualStudio.SDK.VsixSuppression.targets
-++Microsoft.Docker.targets
-++Solution 'TransitAgencyPopayan' ‎(5 of 5 projects)
-i:{00000000-0000-0000-0000-000000000000}:TransitAgencyPopayan.sln
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:>991
+++Configurator
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\http\client\configurator\
+++HttpClientConfigurator.cs
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\http\client\configurator\httpclientconfigurator.cs
+++HttpClientSettings.cs
+i:{3854d15f-3e96-4daf-b865-137de64133e0}:c:\users\victor\downloads\transitagencypopayan\transitagencypopayan.infrastructure.transversal\http\client\configurator\httpclientsettings.cs
+++SQL Server Database (DbConnectionString)
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1048
+++SQL Server Database dependency with connectionId 'DbConnectionString' is detected
+i:{138927ba-0b88-4c43-b6f3-68720733212f}:>1049

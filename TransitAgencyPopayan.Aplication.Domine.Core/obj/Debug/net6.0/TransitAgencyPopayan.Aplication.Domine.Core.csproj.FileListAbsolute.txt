@@ -31,3 +31,4 @@ C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.D
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Domine.Core.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.pdb
+C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Domine.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Domine.Core.csproj.AssemblyReference.cache

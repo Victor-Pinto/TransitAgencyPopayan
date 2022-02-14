@@ -59,3 +59,5 @@ C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.C
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Core.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\ref\TransitAgencyPopayan.Aplication.Core.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\obj\Debug\net6.0\TransitAgencyPopayan.Aplication.Core.pdb
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Aplication.Core\bin\Debug\net6.0\appsettings.json

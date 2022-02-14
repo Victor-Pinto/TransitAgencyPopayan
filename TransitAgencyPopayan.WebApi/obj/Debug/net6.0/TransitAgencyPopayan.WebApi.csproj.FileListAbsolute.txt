@@ -206,3 +206,5 @@ C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\obj\D
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\obj\Debug\net6.0\ref\TransitAgencyPopayan.WebApi.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\obj\Debug\net6.0\TransitAgencyPopayan.WebApi.pdb
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\obj\Debug\net6.0\TransitAgencyPopayan.WebApi.genruntimeconfig.cache
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

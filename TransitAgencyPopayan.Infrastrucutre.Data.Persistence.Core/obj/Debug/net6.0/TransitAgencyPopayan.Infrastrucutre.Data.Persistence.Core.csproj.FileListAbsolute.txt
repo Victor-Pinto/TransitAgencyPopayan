@@ -53,3 +53,5 @@ C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucut
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\obj\Debug\net6.0\ref\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.dll
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\obj\Debug\net6.0\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.pdb
 C:\Users\Victor\Downloads\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\obj\Debug\net6.0\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core.genruntimeconfig.cache
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Victor\Documents\1Projects\S&P\TransitAgencyPopayan\TransitAgencyPopayan.Infrastrucutre.Data.Persistence.Core\bin\Debug\net6.0\appsettings.json
